@@ -1,5 +1,9 @@
 # Jugaad Memory
 
+[Live Demo](https://jugaad-memory.vercel.app/)  
+
+[GitHub Repository](https://github.com/soumyaharjani27-dev/Jugaad-memory)
+
 ### Private memory layer for repair technicians
 
 Most AI assistants give technicians general knowledge.
