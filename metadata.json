@@ -1,0 +1,8 @@
+{
+  "name": "Remix Jugaad Memory",
+  "description": "Private AI memory layer for repair workshops. Captures undocumented technician knowledge and retrieves previous workshop fixes at the moment of repair.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
