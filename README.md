@@ -1,20 +1,59 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Jugaad Memory
 
-# Run and deploy your AI Studio app
+### Private memory layer for repair technicians
 
-This contains everything you need to run your app locally.
+Most AI assistants give technicians general knowledge.
+Jugaad Memory helps a workshop remember what it has already learned.
 
-View your app in AI Studio: https://ai.studio/apps/f0f93f84-1ab7-4105-a1f6-12d09e66adcb
+## Problem
+
+Repair knowledge is often trapped in technicians' heads,
+WhatsApp chats and scattered old repair records...
+
+## Solution
+
+Jugaad Memory combines multimodal device inspection,
+workshop memory retrieval and a stateful Repair Agent...
+
+## Agent Workflow
+
+Inspect → Remember → Reason → Plan → Observe → Replan → Verify → Learn
+
+## Core Features
+
+- Multimodal device inspection
+- Workshop memory retrieval
+- Technician-in-the-loop diagnosis
+- Adaptive repair planning
+- Replanning after technician feedback
+- Persistent workshop memories
+- Memory deletion
+- Developer mode showing agent/tool events
+
+## Tech Stack
+
+React
+TypeScript
+Node.js
+Express
+Google Gemini multimodal AI
+Vite
+LocalStorage + server-side JSON persistence
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+npm install
 
+Create .env.local:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+GEMINI_API_KEY=your_key_here
+
+npm run dev
+
+## AI / Agent Architecture
+
+...
+
+## Hackathon
+
+Built for WCC Launchpad 30 — Agentic AI track.
